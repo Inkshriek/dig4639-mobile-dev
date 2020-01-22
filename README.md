@@ -11,3 +11,6 @@ Self-driven Digital Media graduate with 3.7 GPA looking to grow my skills in web
 1. Item 1 [Google](http://www.google.com)
 2. Item 2
 3. Item 3
+
+## Conflicts
+This section represents code on the srever that isn't on the local repository.
