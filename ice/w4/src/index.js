@@ -13,8 +13,8 @@ function runOnLoad()
     console.log("Hello World truly");
     let myTask = new Task(
         {
-            Content: "Finish ICE Exercise", 
-            Done: false
+            content: "Finish ICE Exercise", 
+            done: false
         }
     )
     var container = document.getElementById("taskList");

@@ -7,7 +7,7 @@ class Task {
     render() {
         return `<span>
         <input type="checkbox"></input>
-        <span>${this.props.Content}</span>
+        <span>${this.props.content}</span>
         </span>`;
     }
 
