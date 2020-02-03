@@ -1,17 +1,21 @@
 class Task {
-    
-    constructor(content, done) {
-        this.content = content;
-        this.done = done;
+
+    constructor(props) {
+        this.props = props;
+        this.element = document.createElement("div");
+        let checkbox = document.createElement("input");
+        checkbox.type = "checkbox";
+        this.element.appendChild(checkbox);
+        let taskText = document.createElement("span");
+        taskText.innerHTML = props.content;
+        this.element.appendChild(taskText);
     }
 
-    render() {
-        return `<span>
-        <input type="checkbox"></input>
-        <span>${this.props.content}</span>
-        </span>`;
+    render () {
+        return this.element;
     }
-
 }
 
 export default Task;
+
+// 
