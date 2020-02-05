@@ -15,7 +15,9 @@ class Task {
         span.innerHTML = this.props.content;
         this.element.className = "task";
     }
-    onClick(e) {
+    onClick(e) 
+        if(e.target.checked){
+            console.log
         console.log(this);
         console.log(e.target);
         console.log(e.target.checked);
