@@ -1,5 +1,13 @@
 import "./index.css"
 
+var toArray = function(obj) {
+    var array = [];
+    for (var i = obj.length; i--;) {
+        array[i] = obj[i];
+    }
+    return array;
+};
+
 class Task {
     constructor(props) {
         this.props = props;
@@ -21,6 +29,7 @@ class Task {
         this.onDelete = this.onDelete.bind(this);
         del.addEventListener("click",this.onDelete);
         del.className = "delete";
+        del.value = "X"
         this.element.appendChild(del);
     }
     onClick(e) {
