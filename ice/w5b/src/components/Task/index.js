@@ -15,6 +15,13 @@ class Task {
         this.element.appendChild(span);
         span.innerHTML = this.props.content;
         this.element.className = "task";
+
+        let del = document.createElement("input");
+        del.type = "button";
+        this.onDelete = this.onDelete.bind(this);
+        del.addEventListener("click",this.onDelete);
+        del.className = "delete";
+        this.element.appendChild(del);
     }
     onClick(e) {
         var myString = "eouaeou"
@@ -32,6 +39,9 @@ class Task {
             this.props.done = false;
             this.text.classList.remove("strike");
         }
+    }
+    onDelete(e) {
+        this.element.parentNode.removeChild(this.element);
     }
     render() {
         return this.element;

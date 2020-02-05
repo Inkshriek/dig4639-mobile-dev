@@ -2,10 +2,15 @@
     background: gray;
 }
 
-
 .strike {
     text-decoration: line-through;
-    background: gree;
+    background: green;
+}
+
+.delete {
+    height: 15px;
+    width: 10px;
+    margin-left: 10px;
 }
 
 #container{
