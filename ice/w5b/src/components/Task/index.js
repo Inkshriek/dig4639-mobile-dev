@@ -11,17 +11,27 @@ class Task {
 
         this.element.appendChild(checkbox);
         let span = document.createElement("span");
+        this.text = span;
         this.element.appendChild(span);
         span.innerHTML = this.props.content;
         this.element.className = "task";
     }
     onClick(e) {
-        if(e.target.checked){
-            console.log("Input is true")
+        var myString = "eouaeou"
+        if(myString == "") {
+            console.log("Input is true");
         }
         console.log(this);
         console.log(e.target);
         console.log(e.target.checked);
+        if (e.target.checked) {
+            this.props.done = true;
+            this.text.classList.add("strike");
+        }
+        else {
+            this.props.done = false;
+            this.text.classList.remove("strike");
+        }
     }
     render() {
         return this.element;
