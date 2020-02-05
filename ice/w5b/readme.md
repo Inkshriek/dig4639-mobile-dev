@@ -2,7 +2,5 @@
 Working in a team of 2-4, start with the code in ice/w5a in the class repository.
 
 ## Team Members
- - 
- - 
- - 
- - 
+ - https://github.com/Inkshriek
+ - https://github.com/vickeej 
