@@ -1,6 +1,11 @@
 .task {
     background: gray;
+    margin: 10px 0px;
 }
+
+.task:hover {
+    background-color: darkslategray;
+  }
 
 .strike {
     text-decoration: line-through;
