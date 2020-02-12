@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/dig-4639-mobile-dev/static/css/main.d1b05096.chunk.css",
+    "main.js": "/dig-4639-mobile-dev/static/js/main.614517a8.chunk.js",
+    "main.js.map": "/dig-4639-mobile-dev/static/js/main.614517a8.chunk.js.map",
+    "runtime-main.js": "/dig-4639-mobile-dev/static/js/runtime-main.93c6d82e.js",
+    "runtime-main.js.map": "/dig-4639-mobile-dev/static/js/runtime-main.93c6d82e.js.map",
+    "static/js/2.9784c025.chunk.js": "/dig-4639-mobile-dev/static/js/2.9784c025.chunk.js",
+    "static/js/2.9784c025.chunk.js.map": "/dig-4639-mobile-dev/static/js/2.9784c025.chunk.js.map",
+    "index.html": "/dig-4639-mobile-dev/index.html",
+    "precache-manifest.f60e181236ddd4a13996ae3e720ac0d0.js": "/dig-4639-mobile-dev/precache-manifest.f60e181236ddd4a13996ae3e720ac0d0.js",
+    "service-worker.js": "/dig-4639-mobile-dev/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/dig-4639-mobile-dev/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.9784c025.chunk.js.LICENSE.txt": "/dig-4639-mobile-dev/static/js/2.9784c025.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/dig-4639-mobile-dev/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.93c6d82e.js",
+    "static/js/2.9784c025.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.614517a8.chunk.js"
+  ]
+}
