@@ -1,9 +1,4 @@
-import {Sum} from './MyMath.js'
-import {AddList} from './MyMath.js'
-import {DivideBy} from './MyMath.js'
-import {ContainsString} from './MyMath.js'
-import {ReSortedNumbers} from './MyMath.js'
-import Adder from './Adder.js'
+import { Sum } from './MyMath.js'
 
 test('adds 1 + 2 to equal 3', () => {
   expect(Sum(1, 2)).toBe(3);
