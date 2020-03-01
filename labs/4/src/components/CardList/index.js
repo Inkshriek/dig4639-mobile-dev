@@ -1,12 +1,12 @@
 import "./index.css"
 import React from 'react';
 import Card from "../Card/index.js";
-import info from "../../info.json";
+import data from "../../data.json";
 
 class CardList extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {cardslist: info.cards};
+        this.state = {cardslist: data.cards};
     }
 
     delete = (event) => {
