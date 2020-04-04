@@ -5,7 +5,7 @@
             "a1": "Of course I do!",
             "a2": "Not at all!",
             "a1score": 3,
-            "a2score": 0
+            "a2score": -1
         },
         {
             "question": "How about monsters, are those cool?",
@@ -15,25 +15,25 @@
             "a2score": 0
         },
         {
-            "question": "Max",
-            "a1": "Enjoys the beach.",
-            "a2": "uhhh",
-            "a1score": 3,
+            "question": "Is gothic rock your jam?",
+            "a1": "I like it!",
+            "a2": "Not so much.",
+            "a1score": 5,
+            "a2score": -1
+        },
+        {
+            "question": "What parts of life would you say you're inclined to?",
+            "a1": "The lighter side, it feels comfortable.",
+            "a2": "Darker things are more interesting!",
+            "a1score": 0,
             "a2score": 4
         },
         {
-            "question": "Max",
-            "a1": "Enjoys the beach.",
-            "a2": "uhhh",
-            "a1score": 3,
-            "a2score": 4
-        },
-        {
-            "question": "Max",
-            "a1": "Enjoys the beach.",
-            "a2": "uhhh",
-            "a1score": 3,
-            "a2score": 4
+            "question": "Would you say it's merely a fashion trend?",
+            "a1": "That's about all it is.",
+            "a2": "It's far more than that!",
+            "a1score": -2,
+            "a2score": 5
         }
     ]
 }
