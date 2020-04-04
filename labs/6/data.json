@@ -1,0 +1,39 @@
+{
+    "questions": [
+        {
+            "question": "Do you like bats?",
+            "a1": "Of course I do!",
+            "a2": "Not at all!",
+            "a1score": 3,
+            "a2score": 0
+        },
+        {
+            "question": "How about monsters, are those cool?",
+            "a1": "You betcha!",
+            "a2": "They're too scary for me.",
+            "a1score": 5,
+            "a2score": 0
+        },
+        {
+            "question": "Max",
+            "a1": "Enjoys the beach.",
+            "a2": "uhhh",
+            "a1score": 3,
+            "a2score": 4
+        },
+        {
+            "question": "Max",
+            "a1": "Enjoys the beach.",
+            "a2": "uhhh",
+            "a1score": 3,
+            "a2score": 4
+        },
+        {
+            "question": "Max",
+            "a1": "Enjoys the beach.",
+            "a2": "uhhh",
+            "a1score": 3,
+            "a2score": 4
+        }
+    ]
+}
