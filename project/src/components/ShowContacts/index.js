@@ -14,17 +14,18 @@ class ShowContacts extends React.Component {
 
   contactWasAdded = (name, number) => {
     let newcontacts = this.state.contacts;
-    newcontacts.push({
+    let added = {
       name: name,
       number: number
-    });
+    };
+    newcontacts.push(added);
     this.setState(newcontacts);
     this.profileRef.current.addToCount();
   }
 
   contactWasDeleted = (position) => {
     let newcontacts = this.state.contacts;
-    newcontacts.splice(position);
+    newcontacts.splice(position, 1);
     this.setState(newcontacts);
     this.profileRef.current.removeFromCount();
   }
@@ -59,7 +60,7 @@ class ShowContacts extends React.Component {
             return (
               <div key={index}>
                 <p>{value.name}<br/>{value.number}</p>
-                <RemoveContact onSubmit={this.contactWasDeleted} position={index}/>
+                <RemoveContact onClick={this.contactWasDeleted} position={index}/>
               </div>
             )
           })

@@ -6,7 +6,7 @@ class RemoveContact extends React.Component {
   constructor(props) {
     super(props);
 
-    this.onSubmit = props.onSubmit;
+    this.onClick = props.onClick;
     this.state = {position: props.position};
   }
 
@@ -25,7 +25,7 @@ class RemoveContact extends React.Component {
     })
     .then(response => response.json())
     .then(() => {
-        this.onSubmit(this.state.position);
+        this.onClick(this.state.position);
     })
     .catch(err => {
       console.log(err);
@@ -42,7 +42,7 @@ class RemoveContact extends React.Component {
 }
 
 RemoveContact.propTypes = {
-  onSubmit: PropTypes.func
+  onClick: PropTypes.func
 };
 
 export default RemoveContact;
