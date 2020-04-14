@@ -2,6 +2,7 @@ import React from 'react';
 import AddContact from "../AddContact/index.js";
 import RemoveContact from "../RemoveContact/index.js";
 import ShowProfile from "../ShowProfile/index.js";
+import "./index.css";
 
 class ShowContacts extends React.Component {
 
@@ -53,13 +54,13 @@ class ShowContacts extends React.Component {
   render() {
     return (
       <div>
-        <AddContact onSubmit={this.contactWasAdded}/>
         <ShowProfile ref={this.profileRef}/>
+        <AddContact onSubmit={this.contactWasAdded}/>
         {
           this.state.contacts.map((value, index) => {
             return (
-              <div key={index}>
-                <p>{value.name}<br/>{value.number}</p>
+              <div className="box" key={index}>
+                <p className="text">Name - {value.name}<br/>Phone - {value.number}</p>
                 <RemoveContact onClick={this.contactWasDeleted} position={index}/>
               </div>
             )

@@ -1,0 +1,14 @@
+.box {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    min-width: 200px;
+    padding: 5px;
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.text {
+    padding: 2px;
+    font-family: 'Times New Roman', Times, serif;
+}

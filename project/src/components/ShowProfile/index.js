@@ -1,4 +1,5 @@
 import React from 'react';
+import "./index.css";
 
 class ShowProfile extends React.Component {
 
@@ -52,11 +53,9 @@ class ShowProfile extends React.Component {
 
   render() {
     return (
-      <div>
-        Name:
-        <div>{this.state.name}</div>
-        Contacts Count:
-        <div>{this.state.count}</div>
+      <div className="profile">
+        User Name: {this.state.name}<br/>
+        Contacts Count: {this.state.count}
       </div>
     );
   }

@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import "./index.css";
 
 class RemoveContact extends React.Component {
 
@@ -35,7 +36,7 @@ class RemoveContact extends React.Component {
   render() {
     return (
       <div>
-        <button onClick={this.deleteContact}>Delete Contact</button>          
+        <button className="delete" onClick={this.deleteContact}>Delete Contact</button>          
       </div>
     );
   }
